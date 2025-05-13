@@ -63,7 +63,7 @@ nav {
     text-align: center;
     padding: 0px 0px 5px 0px;
     background-color: #12455D;
-    width: auto;
+    width: 100%;
     gap: 10px;
     font-family: cursive;
 }
