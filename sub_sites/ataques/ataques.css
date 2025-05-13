@@ -1,0 +1,248 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'titulo';
+    src: url(../../fonts/BOOMSTER.otf)
+}
+
+@font-face {
+    font-family: 'sub_titulo';
+    src: url(../../fonts/Those\ Glitch\ Regular.otf)
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Creepster&family=Kaushan+Script&family=Orbitron:wght@400..900&family=Permanent+Marker&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body {
+    background-image: url('../../imagens/numero_binario.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: cursive;
+    font-size: 16px;
+}
+
+header {
+    background-image: linear-gradient(to top, #12455D 20%, #A5FEFE);
+    padding: 5px;
+    box-shadow: 0px 2px 5px;
+    font-family: "titulo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20pt;
+}
+
+header>div {
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+header>div>h1#cyber {
+    color: rgb(0, 102, 0);
+}
+
+header>div>h1#ranger {
+    color: #FF7200;
+}
+
+header>p {
+    text-align: center;
+    color: white;
+}
+
+nav {
+    display: inline-block;
+    text-align: center;
+    padding: 0px 10px 5px 10px;
+    background-color: #12455D;
+    width: 100%;
+    gap: 10px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    transform: scale(1.05);
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+main {
+    background-color: #E5E5E5;
+    max-width: 1100px;
+    height: 2500px;
+    margin: auto;
+    box-shadow: 0px 2px 10px;
+    padding-top: 5px;
+
+}
+
+main h1 {
+    background-image: linear-gradient(to right, #ff4400d7 20%, #E5E5E5);
+    margin: 5px 10px 5px 10px;
+    border-radius: 20px 0px 0px 20px;
+    padding-left: 10px;
+    padding-bottom: 4px;
+    text-decoration: underline;
+    font-size: 15pt;
+}
+
+
+#foto_cabeçalho {
+    width: 95%;
+    height: 300px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+main h2 {
+    background-image: linear-gradient(to right, #ff4400d7 20%, #E5E5E5);
+    margin: 5px 10px 5px 30px;
+    border-radius: 20px 0px 0px 20px;
+    padding-left: 10px;
+    padding-bottom: 4px;
+    text-decoration: underline;
+    font-size: 12pt;
+}
+
+main h3 {
+    background-image: linear-gradient(to right, #3FE25A 20%, #E5E5E5);
+    margin: 5px 10px 5px 60px;
+    border-radius: 20px 0px 0px 20px;
+    padding-left: 10px;
+    padding-bottom: 4px;
+    text-decoration: underline;
+    font-size: 10pt;
+}
+
+main h1,
+h2,
+h3 {
+    font-family: "sub_titulo";
+    color: #141414;
+}
+
+main p {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-indent: 10px;
+}
+
+main ul,
+ol {
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 20px;
+    text-indent: 10px;
+}
+
+@media (min-width: 0px) and (max-width: 534px) {
+    main {
+        height: 1740px;
+    }
+}
+
+@media (min-width: 535px) and (max-width: 546px) {
+    main {
+        height: 1015px;
+    }
+}
+
+@media (min-width: 547px) and (max-width: 556px) {
+    main {
+        height: 980px;
+    }
+}
+
+@media (min-width: 557px) and (max-width: 747px) {
+    main {
+        height: 960px;
+    }
+}
+
+@media (min-width: 748px) and (max-width: 1032px) {
+    main {
+        height: 915px;
+    }
+}
+
+@media (min-width: 1033px) and (max-width: 1074px) {
+    main {
+        height: 885px;
+    }
+
+}
+
+label {
+    margin-left: 100px;
+}
+
+.pergunta p {
+    margin-left: 80px;
+}
+
+button {
+    background-color: #4CAF50;
+    /* verde */
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    margin: auto;
+}
+
+#botao {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: auto;
+}
+
+button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+#resultadoQuiz {
+    margin-top: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+
+footer {
+    background-color: #5A8A8A;
+    text-align: center;
+    padding: 4px;
+    color: white;
+}
