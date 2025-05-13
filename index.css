@@ -65,6 +65,7 @@ nav {
     background-color: #12455D;
     width: auto;
     gap: 10px;
+    font-family: cursive;
 }
 
 nav a {
@@ -88,7 +89,7 @@ main {
     margin: auto;
     box-shadow: 0px 2px 10px;
     padding-top: 5px;
-    
+    font-family: cursive;   
 }
 
 main  h1 {
