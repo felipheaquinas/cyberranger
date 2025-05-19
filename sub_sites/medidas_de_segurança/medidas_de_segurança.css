@@ -10,6 +10,11 @@
     src: url(../../fonts/Those\ Glitch\ Regular.otf)
 }
 
+@font-face {
+    font-family: 'corpo';
+    src: url(../../fonts/PlaywriteHU-VariableFont_wght.ttf)
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Creepster&family=Kaushan+Script&family=Orbitron:wght@400..900&family=Permanent+Marker&display=swap');
 
 * {
@@ -23,7 +28,8 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    font-family: cursive, 'Open Sans';
+    font-family: 'corpo';
+    font-weight: normal;
     font-size: 18pt;
 }
 
