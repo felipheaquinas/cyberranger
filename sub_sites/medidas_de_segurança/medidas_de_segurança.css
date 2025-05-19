@@ -23,8 +23,8 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    font-family: cursive;
-    font-size: 20pt;
+    font-family: cursive, 'sans-serf';
+    font-size: 18pt;
 }
 
 header {
