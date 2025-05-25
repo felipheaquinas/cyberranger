@@ -59,7 +59,7 @@ header > div > h1#ranger {
 
 header > p {
     text-align: center;
-    color: white;
+    color: black;
 }
 
 nav {
@@ -75,7 +75,7 @@ nav {
 }
 
 nav a {
-    color: black;
+    color: white;
     text-decoration: none;
     margin: 0 10px;
     transition: 0.3s;
@@ -83,7 +83,7 @@ nav a {
 
 nav a:hover {
     transform: scale(1.05);
-    background-color: white;
+    background-color: black;
     border-radius: 10px;
     padding: 5px;
 }
@@ -104,12 +104,12 @@ main  h1 {
 }
 
 main  h2 {
-    margin: 5px 10px 5px 30px;
+    margin: 5px 10px 5px 10px;
     font-size: 14pt;
 }
 
 main h3 {
-    margin: 5px 10px 5px 60px;
+    margin: 5px 10px 5px 50px;
     font-size: 11pt;
 }
 
@@ -129,13 +129,21 @@ main p {
     text-align: justify;
 }
 
-main h2 ~ p {
-    margin-left: 40px;
+.pergunta p{
+    margin-left: 20px;
+    text-indent: 70px;
+}
+.pergunta ul{
+    margin-left: 20px;
+    text-indent: 90px;
 }
 
-main h3 ~ p {
+main ul, ol {
     margin-left: 60px;
+   
+
 }
+
 
 
 footer {
