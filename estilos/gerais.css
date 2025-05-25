@@ -126,6 +126,7 @@ main p {
     margin-left: 20px;
     margin-right: 20px;
     text-indent: 30px;
+    text-align: justify;
 }
 
 main h2 ~ p {
