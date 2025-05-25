@@ -5,13 +5,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cyber Ranger - Clonagem de WhatsApp</title>
-    <link rel="stylesheet" href="../ataques.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Creepster&family=Kaushan+Script&family=Permanent+Marker&display=swap"
-        rel="stylesheet" />
-    <link rel="shortcut icon" href="../../../imagens/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../../../estilos/gerais.css"/>
+    <link rel="stylesheet" href="../../../estilos/gerais_sub_sites.css"/>
+    <link rel="stylesheet" href="../../../estilos/ataques.css"/>
+    <link rel="shortcut icon" href="../../../icons/favicon.png" type="image/x-icon">
 </head>
 
 <body>
@@ -56,7 +53,7 @@
                 vítima a fornecer um código de verificação, permitindo que ele acesse a conta dela.</p>
 
             <div class="pergunta" data-resposta="b">
-                <h3>Pergunta 1:</h3>
+                <h3 class="icon_pergunta">Pergunta 1:</h3>
                 <p>Como criminosos geralmente conseguem clonar o WhatsApp?</p>
                 <label><input type="radio" name="q1" value="a"> Hackeando o chip remotamente</label><br>
                 <label><input type="radio" name="q1" value="b"> Obtendo o código de verificação da vítima</label><br>
@@ -66,7 +63,7 @@
             <h2>Principais Formas de Clonagem</h2>
             <ul>
                 <li>
-                    Golpe do Código de Verificação
+                    <strong>Golpe do Código de Verificação</strong>
                     <p>
                         O criminoso finge ser um conhecido ou funcionário de uma empresa e pede que você envie um código
                         recebido por SMS.
@@ -78,7 +75,7 @@
                 </li>
 
                 <li>
-                    WhatsApp Web Não Autorizado
+                    <strong>WhatsApp Web Não Autorizado</strong>
                     <p>
                         Se alguém tiver acesso ao seu celular por alguns segundos, pode conectar sua conta ao WhatsApp
                         Web e
@@ -92,7 +89,7 @@
                 </li>
 
                 <li>
-                    Aplicativos Espiões
+                    <strong>Aplicativos Espiões</strong>
                     <p>Criminosos podem instalar apps espiões no seu celular para roubar suas mensagens e dados.</p>
                     <ul>
                         <li>Evite baixar aplicativos de fontes desconhecidas.</li>
@@ -101,20 +98,22 @@
                 </li>
 
                 <li>
-                    Engenharia Social e Falsos Suportes
+                    <strong>Engenharia Social e Falsos Suportes</strong>
                     <p>
                         Os golpistas se passam por suporte técnico do WhatsApp ou empresas conhecidas e pedem dados
                         pessoais
                         para “resolver um problema”.
                     </p>
-                <li>Nenhum suporte legítimo entrará em contato pedindo seu código de verificação.</li>
-                <li>Sempre confirme informações diretamente no site oficial da empresa.</li>
+                    <ul>
+                        <li>Nenhum suporte legítimo entrará em contato pedindo seu código de verificação.</li>
+                        <li>Sempre confirme informações diretamente no site oficial da empresa.</li>
+                    </ul>
                 </li>
 
             </ul>
 
             <div class="pergunta" data-resposta="c">
-                <h3>Pergunta 2:</h3>
+                <h3 class="icon_pergunta">Pergunta 2:</h3>
                 <p>Qual é a atitude mais importante para evitar o golpe do código de verificação?</p>
                 <label><input type="radio" name="q2" value="a"> Compartilhar o código apenas com familiares</label><br>
                 <label><input type="radio" name="q2" value="b"> Ignorar mensagens do WhatsApp</label><br>
@@ -129,7 +128,7 @@
             </ul>
 
             <div class="pergunta" data-resposta="a">
-                <h3>Pergunta 3:</h3>
+                <h3 class="icon_pergunta">Pergunta 3:</h3>
                 <p>Qual é um dos sinais de que seu WhatsApp foi clonado?</p>
                 <label><input type="radio" name="q3" value="a"> Mensagens enviadas que você não escreveu</label><br>
                 <label><input type="radio" name="q3" value="b"> O app fecha sozinho</label><br>
@@ -149,14 +148,15 @@
             <p>video</p>
 
             <div class="pergunta" data-resposta="b">
-                <h3>Pergunta 4:</h3>
+                <h3 class="icon_pergunta">Pergunta 4:</h3>
                 <p>O que você deve fazer imediatamente se seu WhatsApp for clonado?</p>
                 <label><input type="radio" name="q4" value="a"> Esperar o invasor sair</label><br>
                 <label><input type="radio" name="q4" value="b"> Reinstalar o app e verificar com seu número</label><br>
                 <label><input type="radio" name="q4" value="c"> Apagar o app</label>
             </div>
 
-            <h2>Conclusão</h2>
+            <h2 class="conclusão">Conclusão</h2>
+            
             <p>Evite golpes ativando a verificação em duas etapas e não compartilhando códigos com ninguém.</p>
 
             <div id="botao"><button onclick="verificarRespostas()">Verificar Respostas</button></div>

@@ -1,0 +1,5 @@
+@charset "UTF-8";
+
+main h1, h2 {
+    background-image: linear-gradient(to right, #5A8A8A 20%, #E5E5E5);
+}

@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+main h3 {
+    background-image: linear-gradient(to right, #3FE25A 20%, #E5E5E5);
+}
+
+main ul > li, ol > li{
+    margin-left: 10px;
+}
+
+main .icon_pergunta::before {
+    content: "";
+    display: inline-block;
+    background-image: url(../icons/pergunta.png);
+    background-size: contain;
+    width: 22px;
+    height: 22px;
+    margin-right: 5px;
+}
+
+#foto_cabeçalho {
+    width: 95%;
+    height: 300px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+main .conclusão::before {
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url(../icons/conclusão.png);
+    background-size: contain;
+    margin-right: 5px;
+}
+
+main ul, ol {
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 20px;
+    text-indent: 10px;
+}
+
+label {
+    margin-left: 100px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    margin: auto;
+}
+
+#botao {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: auto;
+}
+
+button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+#resultadoQuiz {
+    margin-top: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    transition: all 0.3s ease;
+    text-align: center;
+}
