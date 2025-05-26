@@ -1,0 +1,203 @@
+@charset "UTF-8";
+
+main .icon_pergunta::before {
+    content: "";
+    display: inline-block;
+    background-image: url(../icons/pergunta.png);
+    background-size: contain;
+    width: 22px;
+    height: 22px;
+    margin-right: 5px;
+}
+
+main .conclusão::before {
+    content: "";
+    display: inline-block;
+    background-image: url(../icons/conclusão.png);
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+main .alerta > li::before {
+    content: "";
+    display: inline-block;
+    background-image: url(../icons/alerta.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+main .correto > li::before {
+    content: "";
+    display: inline-block;
+    background-image: url(../icons/certo.png);
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+main #virus::before {
+    content: "";
+    display: inline-block;
+    background-image: url(../icons/virus.png);
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+main #worm::before {
+    content: "";
+    display: inline-block;
+    background-image: url(../icons/worm.png);
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+main #trojan::before {
+    content: "";
+    display: inline-block;
+    background-image: url(../icons/trojan.png);
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+main #spyware::before {
+    content: "";
+    display: inline-block;
+    background-image: url(../icons/spware.png);
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+main #ransomware::before {
+    content: "";
+    display: inline-block;
+    background-image: url(../icons/ransomware.png);
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+main #phishing::before {
+    content: "";
+    display: inline-block;
+    background-image: url(../icons/email.png);
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+main #smishing::before {
+    content: "";
+    display: inline-block;
+    background-image: url(../icons/mensagem.png);
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+main #vishing::before {
+    content: "";
+    display: inline-block;
+    background-image: url(../icons/telefone.png);
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+main #phishing_social::before {
+    content: "";
+    display: inline-block;
+    background-image: url(../icons/social.png);
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+main #avast::before {
+    content: "";
+    display: inline-block;
+    background-image: url(../icons/avast.png);
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+main #norton::before {
+    content: "";
+    display: inline-block;
+    background-image: url(../icons/norton.png);
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+main #avg::before {
+    content: "";
+    display: inline-block;
+    background-image: url(../icons/avg.png);
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+main #windows::before {
+    content: "";
+    display: inline-block;
+    background-image: url(../icons/windows.png);
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+main #mac::before {
+    content: "";
+    display: inline-block;
+    background-image: url(../icons/mac.png);
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+main #android::before {
+    content: "";
+    display: inline-block;
+    background-image: url(../icons/android.png);
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+main #ios::before {
+    content: "";
+    display: inline-block;
+    background-image: url(../icons/iphone.png);
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+

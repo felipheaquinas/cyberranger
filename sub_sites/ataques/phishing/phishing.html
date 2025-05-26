@@ -5,8 +5,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Cyber Ranger - Phishing</title>
-  <link rel="stylesheet" href="../../../estilos/gerais.css" />
-  <link rel="stylesheet" href="../../../estilos/gerais_sub_sites.css" />
+  <link rel="stylesheet" href="../../../estilos/fontes.css" />
+  <link rel="stylesheet" href="../../../estilos/icons.css" />
+  <link rel="stylesheet" href="../../../estilos/midia.css" />
+  <link rel="stylesheet" href="../../../estilos/quiz.css" />
   <link rel="stylesheet" href="../../../estilos/ataques.css" />
   <link rel="shortcut icon" href="../../../icons/favicon.png" type="image/x-icon">
 </head>
@@ -38,23 +40,26 @@
       <h1>Phishing</h1>
 
       <p>
-        O <strong>Phishing</strong> é um dos golpes mais comuns na internet e pode afetar qualquer pessoa. Ele se aproveita da confiança
+        O <strong>Phishing</strong> é um dos golpes mais comuns na internet e pode afetar qualquer pessoa. Ele se
+        aproveita da confiança
         dos usuários para roubar informações como senhas, dados bancários e informações pessoais. Entender como funciona
         esse golpe é essencial para evitar cair em armadilhas.
       </p>
 
-      <img src="./imagens_phishing/cabeçalho.jpg" id="foto_cabeçalho" />
+      <img src="./imagens_phishing/cabeçalho.jpg" class="foto_cabeçalho" />
 
       <h2>O que é Phishing?</h2>
 
       <p>
-        <strong>Phishing</strong> é uma técnica de ataque cibernético que tenta enganar as pessoas para que revelem informações
+        <strong>Phishing</strong> é uma técnica de ataque cibernético que tenta enganar as pessoas para que revelem
+        informações
         sigilosas, como senhas e dados de cartões de crédito. Os golpistas se passam por empresas, bancos ou serviços
         confiáveis para induzir a vítima a fornecer informações pessoais.
       </p>
 
       <p>
-        <strong>Exemplo:</strong> Você recebe um e-mail que parece ser do seu banco pedindo para atualizar seus dados. Ao clicar no link, você é levado a um site falso que rouba suas informações.
+        <strong>Exemplo:</strong> Você recebe um e-mail que parece ser do seu banco pedindo para atualizar seus dados.
+        Ao clicar no link, você é levado a um site falso que rouba suas informações.
       </p>
 
       <div class="pergunta" data-resposta="b">
@@ -70,46 +75,44 @@
       <h2>Principais Tipos de Phishing</h2>
 
       <ul>
-        <li>
+        <li id="phishing">
           <strong>Phishing por E-mail</strong>
           <p>Criminosos enviam e-mails falsos que parecem ser de empresas legítimas para enganar as vítimas.</p>
-          <ul type="square">
+          <ul class="alerta" type="none">
             <li>Desconfie de e-mails urgentes pedindo informações pessoais.</li>
             <li>Verifique o remetente e erros ortográficos no texto.</li>
             <li>Passe o mouse sobre os links antes de clicar e veja se o endereço é confiável.</li>
           </ul>
         </li>
 
-        <li>
+        <li id="smishing">
           <strong>Smishing (Phishing por SMS ou WhatsApp)</strong>
           <p>Golpes enviados por mensagem de texto solicitam que você clique em links suspeitos ou forneça códigos de
             segurança.</p>
-          <ul type="square">
+          <ul class="alerta" type="none">
             <li>Bancos e empresas nunca pedem senhas por SMS.</li>
             <li>Nunca clique em links desconhecidos.</li>
           </ul>
-
         </li>
 
-        <li>
+        <li id="vishing">
           <strong>Vishing (Phishing por Ligação Telefônica)</strong>
           <p>Golpistas ligam se passando por suporte técnico, bancos ou órgãos governamentais para enganar as vítimas.
           </p>
-          <ul type="square">
+          <ul class="alerta" type="none">
             <li>Nunca forneça dados pessoais por telefone.</li>
             <li>Desligue e ligue diretamente para a empresa em caso de dúvidas.</li>
           </ul>
 
         </li>
 
-        <li>
+        <li id="phishing_social">
           <strong>Phishing em Redes Sociais</strong>
           <p>Perfis falsos se passam por amigos ou empresas para roubar informações ou dinheiro.</p>
-          <ul type="square">
+          <ul class="alerta" type="none">
             <li>Não compartilhe códigos de verificação recebidos por SMS.</li>
             <li>Verifique perfis antes de interagir ou enviar dinheiro.</li>
           </ul>
-
         </li>
       </ul>
 
@@ -125,7 +128,7 @@
 
       <h2>Como Identificar um Ataque de Phishing?</h2>
 
-      <ul>
+      <ul class="alerta" type="none">
         <li>Mensagens urgentes pedindo informações pessoais.</li>
         <li>Links suspeitos que redirecionam para páginas falsas.</li>
         <li>Erros ortográficos e de gramática em e-mails e mensagens.</li>
@@ -180,7 +183,8 @@
       <h2 class="conclusão">Conclusão</h2>
 
       <p>
-        O <strong>Phishing</strong> continua sendo uma das maiores ameaças digitais, mas ao seguir boas práticas de segurança, você pode
+        O <strong>Phishing</strong> continua sendo uma das maiores ameaças digitais, mas ao seguir boas práticas de
+        segurança, você pode
         se proteger contra esses golpes. Sempre desconfie de mensagens suspeitas e nunca forneça informações pessoais
         sem verificar a autenticidade da solicitação.
       </p>

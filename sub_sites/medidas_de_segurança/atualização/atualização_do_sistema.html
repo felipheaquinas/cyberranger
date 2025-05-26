@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cyber Ranger - Atualização do Sistema</title>
-    <link rel="stylesheet" href="../../../estilos/gerais.css" />
-    <link rel="stylesheet" href="../../../estilos/gerais_sub_sites.css" />
+    <link rel="stylesheet" href="../../../estilos/fontes.css" />
+    <link rel="stylesheet" href="../../../estilos/icons.css"/>
+    <link rel="stylesheet" href="../../../estilos/midia.css"/>
+    <link rel="stylesheet" href="../../../estilos/quiz.css"/>
     <link rel="stylesheet" href="../../../estilos/medidas_de_segurança.css" />
     <link rel="shortcut icon" href="../../../icons/favicon.png" type="image/x-icon">
 </head>
@@ -39,7 +41,7 @@
             <p>
                 Uma <strong>Atualização de Sistema</strong> é um conjunto de melhorias e correções lançadas pelos desenvolvedores do sistema operacional (Windows, macOS, Android, iOS, etc.). Elas servem para corrigir falhas, aumentar a segurança e trazer novos recursos.
             </p>
-            <img src="./imagens_atualização/cabeçalho.jpeg" id="foto_cabeçalho">
+            <img src="./imagens_atualização/cabeçalho.jpeg" class="foto_cabeçalho">
 
             <div class="pergunta" data-resposta="b">
                 <h3 class="icon_pergunta">Pergunta 1:</h3>
@@ -90,17 +92,17 @@
             <h2>Como Atualizar Seu Sistema?</h2>
             <ol>
                 <li><strong>Verifique se há Atualizações disponíveis</strong>
-                    <ul type="square">
-                        <li><strong>No Windows:</strong>
+                    <ul>
+                        <li id="windows" type="none"><strong>No Windows:</strong>
                             <p>Acesse Configurações > Atualização e Segurança > Windows Update.</p>
                         </li>
-                        <li><strong>No macOS:</strong>
+                        <li id="mac" type="none"><strong>No macOS:</strong>
                             <p>Vá para Preferências do Sistema > Atualização de Software.</p>
                         </li>
-                        <li><strong>No Android:</strong>
+                        <li id="android" type="none"><strong>No Android:</strong>
                             <p>Acesse Configurações > Sistema > Atualizações de Software.</p>
                         </li>
-                        <li><strong>No iOS:</strong>
+                        <li id="ios" type="none"><strong>No iOS:</strong>
                             <p>Vá em Ajustes > Geral > Atualização de Software.</p>
                         </li>
                     </ul>
