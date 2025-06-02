@@ -7,14 +7,13 @@
     margin: 10px auto;
 }
 
-.corpo {
-    height: 250px;
+#codigo_verificaçao, #web, #espiao, #engenharia {
     display: block;
     margin: 10px auto;
 }
 
 .estrutura_da_imagem {
-    width: 94%;
+    width: 95%;
 }
 
 iframe {
@@ -33,12 +32,20 @@ iframe {
 }
 
 @media (max-width: 700px) {
-    .corpo {
-        width: 14em;
+    #codigo_verificaçao {
+        width: 11em;
     }
 
-    .estrutura_da_imagem {
-        width: 85%;
+    #web {
+        width: 17em;
+    }
+
+    #espiao {
+        width: 17em;
+    }
+
+    #engenharia {
+        width: 17em;
     }
 
     iframe {
