@@ -129,6 +129,22 @@ main p {
     text-align: justify;
 }
 
+main > article > ul  p {
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 65px;
+    text-indent: 30px;
+    text-align: justify;
+}
+
+main > article > ul  ul  {
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 65px;
+    text-indent: 30px;
+    text-align: justify;
+}
+
 .pergunta p{
     margin-left: 20px;
     text-indent: 70px;

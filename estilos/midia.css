@@ -1,10 +1,48 @@
 @charset "UTF-8";
 
-.foto_cabeçalho {
+.imagem_cabeçalho {
     width: 95%;
     height: 300px;
     display: block;
+    margin: 10px auto;
+}
+
+.corpo {
+    height: 250px;
+    display: block;
+    margin: 10px auto;
+}
+
+.estrutura_da_imagem {
+    width: 94%;
+}
+
+iframe {
+    width: 560px;
+    height: 315px;
+    display: block;
     margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
+}
+
+.estrutura_do_video {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    background-color: gray;
+}
+
+@media (max-width: 700px) {
+    .corpo {
+        width: 14em;
+    }
+
+    .estrutura_da_imagem {
+        width: 85%;
+    }
+
+    iframe {
+        width: 90%;
+        height: 215px;
+    }
 }
