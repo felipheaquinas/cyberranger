@@ -12,23 +12,27 @@
     margin: 10px auto;
 }
 
-.estrutura_da_imagem {
-    width: 85%;
-}
 
-iframe {
-    width: 560px;
-    height: 315px;
+video  {
+    width: 90%;
+    height: 200px;
     display: block;
     margin: auto;
 }
 
 .estrutura_do_video {
-    width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    width: 60%;
+    padding: 10px;
+    border: 6px solid black;
     margin: auto;
     background-color: gray;
+}
+
+iframe {
+    width: 90%;
+    height: 315px;
+    display: block;
+    margin: auto;
 }
 
 @media (max-width: 700px) {
@@ -48,8 +52,8 @@ iframe {
         width: 17em;
     }
 
-    iframe {
+    .estrutura_do_video {
         width: 90%;
-        height: 215px;
     }
+
 }
