@@ -26,6 +26,10 @@ video  {
     border: 6px solid black;
     margin: auto;
     background-color: gray;
+    background-image: url('../imagens/fundo_dos_videos.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 iframe {
