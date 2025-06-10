@@ -7,11 +7,10 @@
     margin: 10px auto;
 }
 
-#codigo_verificaçao, #web, #espiao, #engenharia {
+#codigo_verificaçao img, #web img, #espiao img, #engenharia img, #phishing img, #smishing img, #phishing img, #phishing_social img {
     display: block;
     margin: 10px auto;
 }
-
 
 video  {
     width: 90%;
@@ -39,25 +38,47 @@ iframe {
     margin: auto;
 }
 
+.atencao {
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+
 @media (max-width: 700px) {
-    #codigo_verificaçao {
+    #codigo_verificaçao img {
         width: 11em;
     }
 
-    #web {
+    #web img {
         width: 17em;
     }
 
-    #espiao {
+    #espiao img {
         width: 17em;
     }
 
-    #engenharia {
+    #engenharia img {
         width: 17em;
+    }
+
+    #phishing img {
+        width: 17em;
+    } 
+    
+    #smishing img {
+        width: 10em;
+    }
+    
+    #phishing img {
+        width: 17em;
+    }
+    
+    #phishing_social img {
+        width: 16em;
     }
 
     .estrutura_do_video {
         width: 90%;
     }
-
 }

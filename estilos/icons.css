@@ -10,11 +10,12 @@ main .icon_pergunta::before {
     margin-right: 5px;
 }
 
-main .conclusão::before {
+main a::before {
     content: "";
     display: inline-block;
-    background-image: url(../icons/conclusão.png);
+    background-image: url(../icons/link.png);
     background-size: contain;
+    background-repeat: no-repeat;
     width: 24px;
     height: 24px;
     margin-right: 5px;
@@ -24,6 +25,17 @@ main .alerta > li::before {
     content: "";
     display: inline-block;
     background-image: url(../icons/alerta.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+main .atencao::before {
+    content: "";
+    display: inline-block;
+    background-image: url(../icons/atencao.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 24px;
@@ -201,3 +213,12 @@ main #ios::before {
     margin-right: 5px;
 }
 
+main .conclusão::before {
+    content: "";
+    display: inline-block;
+    background-image: url(../icons/conclusão.png);
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
