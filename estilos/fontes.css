@@ -87,7 +87,7 @@ nav a:hover {
 }
 
 main {
-    background-color: #cfcfcf;
+    background-color: #dbdbdb;
     max-width: 85%;
     height: 100%;
     margin: auto;
@@ -98,17 +98,17 @@ main {
 
 main  h1 {
     margin: 5px 10px 5px 10px;
-    font-size: 32px;
+    font-size: 24px;
 }
 
 main  h2 {
     margin: 5px 10px 5px 10px;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 main h3 {
     margin: 5px 10px 5px 50px;
-    font-size: 16pt;
+    font-size: 16px;
 }
 
 main h1, h2, h3 {

@@ -32,7 +32,7 @@ main .alerta > li::before {
     margin-right: 5px;
 }
 
-main .atencao::before {
+main .atencao::before, .atencao::after {
     content: "";
     display: inline-block;
     background-image: url(../icons/atencao.png);
