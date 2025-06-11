@@ -45,23 +45,14 @@ iframe {
     margin: auto;
 }
 
-.atencao {
-    text-align: center;
-    width: 100%;
-    color: white;
-    background-color: #ff4500;
-    border-radius: 40px;
-    padding: 2px 10px 2px 10px;
-    margin: 10px 0px 10px 0px;
-    border: 2px solid black;
-}
+
 
 .audio {
     text-align: center;
     display: block;
     width: 100%;
     margin: auto;
-    background-color: #ff4500;
+    background-color: #ff6932;
     border-radius: 40px;
     padding: 10px;
     border: 2px solid black;

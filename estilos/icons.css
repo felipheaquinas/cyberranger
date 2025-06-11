@@ -32,16 +32,14 @@ main .alerta > li::before {
     margin-right: 5px;
 }
 
-span {
+main .atencao::before {
+    content: "";
     display: inline-block;
-    width: 48px; /* 2 ícones de 24px */
+    background-image: url(../icons/atencao.png);
+    background-size: contain;
+    width: 24px;
     height: 24px;
-    background-image: url(../icons/atencao.png), url(../icons/alerta.png);
-    background-position: 0 center, 24px center;
-    background-size: 24px 24px;
-    background-repeat: no-repeat;
-    vertical-align: middle;
-    margin: 0 4px;
+    margin-right: 5px;
 }
 
 main .correto > li::before {
