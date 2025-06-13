@@ -10,7 +10,7 @@
     margin-right: 5px;
 }
 
-main a::before {
+main .link::before {
     content: "";
     display: inline-block;
     background-image: url(../icons/link.png);

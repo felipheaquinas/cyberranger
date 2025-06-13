@@ -88,12 +88,17 @@ nav a {
     transition: 0.3s;
 }
 
+nav a.atual {
+    background-color: #00c200;
+    padding: 0px 3px 0px 3px;
+}
+
 nav a:hover {
     transform: scale(1.05);
-    padding-bottom: 3px;
-    padding-top: 3px;
+    padding: 3px 3px 3px 3px;
     background-color: #00c200;
 }
+
 
 main {
     background-color: #dbdbdb;
