@@ -11,5 +11,5 @@ function verificarRespostas() {
   });
 
   const resultado = document.getElementById('resultadoQuiz');
-  window.alert (`Você acertou ${acertos} de ${perguntas.length} perguntas.`)
+  resultado.textContent = "Você acertou " + acertos + " de " + perguntas.length + " perguntas.";
 }

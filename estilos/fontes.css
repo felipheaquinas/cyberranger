@@ -37,7 +37,7 @@ body.segurança > main h1, body.segurança > main h2 {
     background-image: linear-gradient(to right, #5A8A8A 20%, #dbdbdb);
 }
 
-body.inicio > main h1, main h2 {
+body.inicio > main h1{
     background-image: linear-gradient(to right, #006600d5 20%, #E5E5E5);
 }
 
@@ -171,7 +171,7 @@ main > article > ul  p, ul  ul, ul ol{
     margin-right: 50px;
 }
 
-.link {
+main a {
     color: black;
     padding: 0px 5px 0px 5px;
     border-radius: 10px; 
@@ -179,19 +179,19 @@ main > article > ul  p, ul  ul, ul ol{
     display: inline-block;
 }
 
-.fora:hover {
+main a.fora:hover {
     background-color: rgb(255, 255, 255);
     transform: scale(1.05);
     border: 1px solid black;
 }
 
-a.segurança:hover {
+main a.segurança:hover {
     background-color: #5a8a8a5c;
     transform: scale(1.05);
     border: 1px solid black;
 }
 
-a.ataque:hover {
+main a.ataque:hover {
     background-color: #ff44004f;
     transform: scale(1.05);
     border: 1px solid black;

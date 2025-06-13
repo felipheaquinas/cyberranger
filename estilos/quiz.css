@@ -7,16 +7,15 @@ main h3 {
 button {
     background-color: #4CAF50;
     color: white;
-    font-weight: bolder;
-    font-size: 18px;
     padding: 12px 24px;
+    border: none;
     border-radius: 8px;
     cursor: pointer;
+    font-size: 16px;
     transition: background-color 0.3s ease, transform 0.2s ease;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     display: flex;
     margin: auto;
-    border: 2px solid black;
 }
 
 #botao {
