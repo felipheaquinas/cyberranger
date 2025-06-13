@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-main .icon_pergunta::before {
+.icon_pergunta::before {
     content: "";
     display: inline-block;
     background-image: url(../icons/pergunta.png);
@@ -176,6 +176,16 @@ main #windows::before {
     content: "";
     display: inline-block;
     background-image: url(../icons/windows.png);
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+main #linux::before {
+    content: "";
+    display: inline-block;
+    background-image: url(../icons/linux.png);
     background-size: contain;
     width: 24px;
     height: 24px;
