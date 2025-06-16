@@ -5,7 +5,7 @@ main h3 {
 }
 
 button {
-    background-color: #4CAF50;
+    background-color: #58CD5C;
     color: white;
     font-weight: bolder;
     padding: 12px 24px;
@@ -27,12 +27,24 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #3F9241;
     transform: scale(1.05);
 }
 
 button:active {
     transform: scale(0.98);
+}
+
+#volta_ao_topo {
+    display: none;
+    position: fixed;
+    bottom: 68px;
+    right: 69px;
+    background-color: #6CA7A7;
+}
+
+#volta_ao_topo:hover {
+    background-color: #466B6B;
 }
 
 #resultadoQuiz {
