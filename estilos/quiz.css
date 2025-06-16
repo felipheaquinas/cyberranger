@@ -38,8 +38,8 @@ button:active {
 #volta_ao_topo {
     display: none;
     position: fixed;
-    bottom: 68px;
-    right: 69px;
+    bottom: 101px;
+    right: 5px;
     background-color: #6CA7A7;
 }
 
