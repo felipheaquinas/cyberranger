@@ -38,14 +38,30 @@ button:active {
 #volta_ao_topo {
     display: none;
     position: fixed;
-    bottom: 101px;
-    right: 5px;
+    bottom: 69px;
+    right: 67px;
     background-color: #6CA7A7;
 }
 
 #volta_ao_topo:hover {
     background-color: #466B6B;
 }
+
+@media (max-width: 700px) {
+    #volta_ao_topo {
+    display: none;
+    position: fixed;
+    bottom: 101px;
+    right: 5px;
+    background-color: #6CA7A7;
+    }
+
+    #volta_ao_topo:hover {
+        background-color: #466B6B;
+    }
+    
+}
+
 
 #resultadoQuiz {
     margin-top: 16px;

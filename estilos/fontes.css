@@ -37,11 +37,9 @@ body.segurança > main h1, body.segurança > main h2 {
     background-image: linear-gradient(to right, #5A8A8A 20%, #dbdbdb);
 }
 
-body.inicio > main h1{
+body.inicio > main h1, body.inicio > main h2, body.referencia > main h1, body.referencia > main h2{
     background-image: linear-gradient(to right, #006600d5 20%, #E5E5E5);
 }
-
-
 
 header {
     background-image: linear-gradient(to top, #12455D 1%, #A5FEFE);
@@ -138,10 +136,10 @@ main h1, h2, h3 {
     padding: 10px;
     border-radius: 20px 0px 0px 20px;
     text-decoration: underline;
+    margin-bottom: 10px;
 }
 
 main p {
-    margin-top: 10px;
     margin-left: 20px;
     margin-right: 20px;
     text-indent: 30px;
