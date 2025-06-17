@@ -1,4 +1,4 @@
-let botao = window.document.getElementById("volta_ao_topo");
+let botao = window.document.getElementsByClassName('volta_ao_topo')[0];
 
 window.addEventListener('scroll', rolou);
 

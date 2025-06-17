@@ -19,7 +19,7 @@ button {
     margin: auto;
 }
 
-#botao {
+.botao {
     margin-top: 10px;
     margin-left: 20px;
     margin-right: 20px;
@@ -35,7 +35,7 @@ button:active {
     transform: scale(0.98);
 }
 
-#volta_ao_topo {
+.volta_ao_topo {
     display: none;
     position: fixed;
     bottom: 69px;
@@ -43,12 +43,12 @@ button:active {
     background-color: #6CA7A7;
 }
 
-#volta_ao_topo:hover {
+.volta_ao_topo:hover {
     background-color: #466B6B;
 }
 
 @media (max-width: 700px) {
-    #volta_ao_topo {
+    .volta_ao_topo {
     display: none;
     position: fixed;
     bottom: 101px;
@@ -56,14 +56,14 @@ button:active {
     background-color: #6CA7A7;
     }
 
-    #volta_ao_topo:hover {
+    .volta_ao_topo:hover {
         background-color: #466B6B;
     }
     
 }
 
 
-#resultadoQuiz {
+.resultadoQuiz {
     margin-top: 16px;
     font-size: 18px;
     font-weight: bold;

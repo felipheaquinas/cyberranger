@@ -146,27 +146,43 @@ main p {
     text-align: justify;
 }
 
-main ul, ol {
-    margin-left: 60px;
-    margin-right: 60px;
+ul, ol {
+    margin-left: 50px;
+    margin-right: 50px;
     text-align: justify;
 }
 
-main > article > ul  p, ul  ul, ul ol{
-    margin-top: 10px;
+ul  p, ul  ul, ul ol, ul > li > .alerta{
     margin-left: 0px;
     margin-right: 0px;
 }
 
+
+
+.exemplo > li, ol > li > p, ol > li > ul, ul > li > p {
+    text-indent: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+ li > .alerta{
+    text-indent: 25px;
+}
+
+.alerta, .correto {
+    margin-left: 30px;
+}
+
 .pergunta p{
-    margin-left: 53px;
+    margin-left: 60px;
     margin-right: 50px;
-    text-indent: 35px;
+    text-indent: 30px;
 }
 
 .pergunta ul{
-    margin-left: 90px;
+    margin-left: 60px;
     margin-right: 50px;
+    text-indent: 30px;
 }
 
 main a {
@@ -197,7 +213,6 @@ main a.ataque:hover {
 
 .atencao {
     text-align: justify;
-    width: 100%;
     color: black;
     background-color: #fb8f68;
     border-radius: 40px;

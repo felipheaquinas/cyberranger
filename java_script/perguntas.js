@@ -10,6 +10,6 @@ function verificarRespostas() {
     }
   });
 
-  const resultado = document.getElementById('resultadoQuiz');
+  const resultado = document.getElementsByClassName('resultadoQuiz');
   window.alert(`Você acertou ${acertos} de ${perguntas.length} perguntas.`);
 }
