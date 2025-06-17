@@ -49,7 +49,7 @@ iframe {
     text-align: center;
     display: block;
     margin: auto;
-    background-color: #fb8f68;
+    background-image: url(../imagens/fundo_dos_videos.png);
     border-radius: 40px;
     padding: 10px;
     width: 80%;
