@@ -5,35 +5,40 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Cyber Ranger - Romance Scam</title>
-	<link rel="stylesheet" href="../../../estilos/fontes.css" />
-	<link rel="stylesheet" href="../../../estilos/icons.css" />
-	<link rel="stylesheet" href="../../../estilos/midia.css" />
-	<link rel="stylesheet" href="../../../estilos/quiz.css" />
-	<link rel="stylesheet" href="../../../estilos/ataques.css" />
+	<link rel="stylesheet" href="../../../estilos/fontes.css">
+    <link rel="stylesheet" href="../../../estilos/icons.css">
+    <link rel="stylesheet" href="../../../estilos/midia.css">
+    <link rel="stylesheet" href="../../../estilos/botao.css">
+    <link rel="stylesheet" href="../../../estilos/ataques.css">
 	<link rel="shortcut icon" href="../../../icons/favicon.png" type="image/x-icon">
 </head>
 
 <body class="ataque">
 	<header>
-		<div>
-			<h1 id="cyber">Cyber</h1>
-			<h1 id="ranger">Ranger</h1>
-		</div>
-		<p>Projeto de Extensão Curricular</p>
-	</header>
+        <div class="container">
+            <div class="logo">
+                <a href="../../../index.html">
+					<img src="../../../imagens/cyberranger.png" alt="cyberranger">
+				</a>
 
-	<nav>
-		<a href="../../../index.html">Inicio</a>
-		<a href="../../ataques/clonagem_whatsapp/clonagem_do_whatsapp.html">Clonagem do Whatsapp</a>
-		<a href="../../ataques/malware/malware.html">Malwares</a>
-		<a href="../../ataques/phishing/phishing.html">Phishing</a>
-		<a class="atual" href="../../ataques/romance_scam/romance_scam.html">Romnce Scam</a>
-		<a href="../../medidas_de_segurança/antivirus/antivirus.html">Antivirus</a>
-		<a href="../../medidas_de_segurança/atualização/atualização_do_sistema.html">Atualização</a>
-		<a href="../../medidas_de_segurança/autenticação/autenticacao.html">Autenticação</a>
-		<a href="../../medidas_de_segurança/backup/backup.html">Backup</a>
-		<a href="../../../referencias.html">Referências</a>
-	</nav>
+				<a href="../../../index.html">
+					<p>Projeto de Extensão Curricular</p>
+				</a>
+            </div>
+            <div class="menu">
+                <nav>
+					<a href="../../../index.html">Inicio</a>
+                    <a href="../clonagem_whatsapp/clonagem_do_whatsapp.html">Clonagem do WhatsApp</a>
+                    <a href="../malware/malware.html">Malware</a>
+                    <a href="../phishing/phishing.html">Phishing</a>
+                    <a href="./romance_scam.html">Romance Scam</a>
+                </nav>
+            </div>
+            <div class="estrutura_contato">
+                <button class="botao_contato">&#8942</button>
+            </div>
+        </div>
+    </header>
 
 	<main>
 		<article>
@@ -70,12 +75,9 @@
 				<h3 class="icon_pergunta">Pergunta 1:</h3>
 				<p>O que é o <strong>Romance Scam</strong>?</p>
 				<ul type="none">
-					<li><input type="radio" name="q1" value="a"> Um golpe financeiro envolvendo investimentos
-						fraudulentos</li>
-					<li><input type="radio" name="q1" value="b"> Um golpe onde criminosos fingem ser parceiros
-						românticos para
-						enganar vítimas</li>
-					<li><input type="radio" name="q1" value="c"> Um tipo de malware que rouba informações bancárias</li>
+					<li class="a"><input type="radio" name="q1" value="a"> Um golpe financeiro envolvendo investimentos fraudulentos</li>
+					<li class="b"><input type="radio" name="q1" value="b"> Um golpe onde criminosos fingem ser parceiros românticos para enganar vítimas</li>
+					<li class="c"><input type="radio" name="q1" value="c"> Um tipo de malware que rouba informações bancárias</li>
 				</ul>
 			</div>
 
@@ -133,9 +135,9 @@
 				<h3 class="icon_pergunta">Pergunta 2:</h3>
 				<p>Qual desses é um sinal comum de um <strong>Romance Scam</strong>?</p>
 				<ul type="none">
-					<li><input type="radio" name="q2" value="a"> Declarações de amor muito rápidas</li>
-					<li><input type="radio" name="q2" value="b"> Pedir dinheiro em situações de emergência</li>
-					<li><input type="radio" name="q2" value="c"> Fazer chamadas de vídeo com frequência</li>
+					<li class="a"><input type="radio" name="q2" value="a"> Declarações de amor muito rápidas</li>
+					<li class="b"><input type="radio" name="q2" value="b"> Pedir dinheiro em situações de emergência</li>
+					<li class="c"><input type="radio" name="q2" value="c"> Fazer chamadas de vídeo com frequência</li>
 				</ul>
 			</div>
 
@@ -154,10 +156,10 @@
 				<h3 class="icon_pergunta">Pergunta 3:</h3>
 				<p>Como você pode se proteger de um <strong>Romance Scam</strong>?</p>
 				<ul type="none">
-					<li><input type="radio" name="q3" value="a"> Enviar dinheiro para ajudar em emergências</li>
-					<li><input type="radio" name="q3" value="b"> Pesquisar a identidade da pessoa usando ferramentas
+					<li class="a"><input type="radio" name="q3" value="a"> Enviar dinheiro para ajudar em emergências</li>
+					<li class="b"><input type="radio" name="q3" value="b"> Pesquisar a identidade da pessoa usando ferramentas
 						online</li>
-					<li><input type="radio" name="q3" value="c"> Manter tudo em segredo sem envolver familiares ou
+					<li class="c"><input type="radio" name="q3" value="c"> Manter tudo em segredo sem envolver familiares ou
 						amigos</li>
 				</ul>
 			</div>
@@ -177,10 +179,10 @@
 				<h3 class="icon_pergunta">Pergunta 4:</h3>
 				<p>Se você cair em um <strong>Romance Scam</strong>, o que deve fazer?</p>
 				<ul type="none">
-					<li><input type="radio" name="q4" value="a"> Denunciar o golpista e parar de se comunicar com ele
+					<li class="a"><input type="radio" name="q4" value="a"> Denunciar o golpista e parar de se comunicar com ele
 					</li>
-					<li><input type="radio" name="q4" value="b"> Continuar ajudando com mais dinheiro</li>
-					<li><input type="radio" name="q4" value="c"> Ignorar o incidente e seguir em frente</li>
+					<li class="b"><input type="radio" name="q4" value="b"> Continuar ajudando com mais dinheiro</li>
+					<li class="c"><input type="radio" name="q4" value="c"> Ignorar o incidente e seguir em frente</li>
 				</ul>
 			</div>
 
@@ -193,7 +195,7 @@
 				instinto e pesquise antes de se envolver.
 			</p>
 
-			<div class="botao"><button onclick="verificarRespostas()">Verificar Respostas</button></div>
+			<div><button class="verificar_resposta" onclick="verificarRespostas()">Verificar Respostas</button></div>
             <p class="resultadoQuiz"></p>
 
         </article>

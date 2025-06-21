@@ -5,43 +5,47 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cyber Ranger - Clonagem de WhatsApp</title>
-    <link rel="stylesheet" href="../../../estilos/fontes.css" />
-    <link rel="stylesheet" href="../../../estilos/icons.css" />
-    <link rel="stylesheet" href="../../../estilos/midia.css" />
-    <link rel="stylesheet" href="../../../estilos/quiz.css" />
-    <link rel="stylesheet" href="../../../estilos/ataques.css" />
+    <link rel="stylesheet" href="../../../estilos/fontes.css">
+    <link rel="stylesheet" href="../../../estilos/icons.css">
+    <link rel="stylesheet" href="../../../estilos/midia.css">
+    <link rel="stylesheet" href="../../../estilos/botao.css">
+    <link rel="stylesheet" href="../../../estilos/ataques.css">
     <link rel="shortcut icon" href="../../../icons/favicon.png" type="image/x-icon">
 </head>
 
 <body class="ataque">
     <header>
-        <div>
-            <h1 id="cyber">Cyber</h1>
-            <h1 id="ranger">Ranger</h1>
-        </div>
-        <p>Projeto de Extensão Curricular</p>
-    </header>
+        <div class="container">
+            <div class="logo">
+                <a href="../../../index.html">
+					<img src="../../../imagens/cyberranger.png" alt="cyberranger">
+				</a>
 
-    <nav>
-        <a href="../../../index.html">Inicio</a>
-        <a class="atual" href="../../ataques/clonagem_whatsapp/clonagem_do_whatsapp.html">Clonagem do Whatsapp</a>
-        <a href="../../ataques/malware/malware.html">Malwares</a>
-        <a href="../../ataques/phishing/phishing.html">Phishing</a>
-        <a href="../../ataques/romance_scam/romance_scam.html">Romnce Scam</a>
-        <a href="../../medidas_de_segurança/antivirus/antivirus.html">Antivirus</a>
-        <a href="../../medidas_de_segurança/atualização/atualização_do_sistema.html">Atualização</a>
-        <a href="../../medidas_de_segurança/autenticação/autenticacao.html">Autenticação</a>
-        <a href="../../medidas_de_segurança/backup/backup.html">Backup</a>
-        <a href="../../../referencias.html">Referências</a>
-    </nav>
+				<a href="../../../index.html">
+					<p>Projeto de Extensão Curricular</p>
+				</a>
+            </div>
+            <div class="menu">
+                <nav>
+                    <a href="../../../index.html">Inicio</a>
+                    <a href="./clonagem_do_whatsapp.html">Clonagem do WhatsApp</a>
+                    <a href="../malware/malware.html">Malware</a>
+                    <a href="../phishing/phishing.html">Phishing</a>
+                    <a href="../romance_scam/romance_scam.html">Romance Scam</a>
+                </nav>
+            </div>
+            <div class="estrutura_contato">
+                <button class="botao_contato">&#8942</button>
+            </div>
+        </div>
+    </header>
 
     <main>
         <article>
             <h1>Clonagem de WhatsApp</h1>
 
-            <p>A <strong>Clonagem de WhatsApp</strong> é um golpe cada vez mais comum, onde criminosos tomam controle do
-                aplicativo da vítima para aplicar fraudes e extorquir dinheiro de seus contatos. Entender como funciona
-                esse golpe é essencial para evitar prejuízos e manter sua conta segura.</p>
+            <p>
+                A <strong>Clonagem de WhatsApp</strong> é um golpe cada vez mais comum, onde criminosos tomam controle do aplicativo da vítima para aplicar fraudes e extorquir dinheiro de seus contatos. Entender como funciona esse golpe é essencial para evitar prejuízos e manter sua conta segura.</p>
 
             <img src="./imagens_clonagem_whatsapp/cabeçalho.jpeg" alt="image do whatsapp" class="imagem_cabeçalho" />
 
@@ -52,16 +56,15 @@
                 passando por você.</p>
 
             <p><strong>Exemplo:</strong> Um golpista entra em contato fingindo ser um atendente do
-                <strong>WhatsApp</strong> e convence a vítima a fornecer um código de verificação, permitindo que ele
-                acesse a conta dela.</p>
+                <strong>WhatsApp</strong> e convence a vítima a fornecer um código de verificação, permitindo que ele acesse a conta dela.</p>
 
             <div class="pergunta" data-resposta="b">
                 <h3 class="icon_pergunta">Pergunta 1:</h3>
                 <p>Como criminosos geralmente conseguem clonar o <strong>WhatsApp</strong>?</p>
                 <ul type="none">
-                    <li><input type="radio" name="q1" value="a"> Hackeando o chip remotamente</li>
-                    <li><input type="radio" name="q1" value="b"> Obtendo o código de verificação da vítimas</li>
-                    <li><input type="radio" name="q1" value="c"> Através de e-mails falsos</li>
+                    <li class="a"><input type="radio" name="q1" value="a"> Hackeando o chip remotamente</li>
+                    <li class="b"><input type="radio" name="q1" value="b"> Obtendo o código de verificação da vítimas</li>
+                    <li class="c"><input type="radio" name="q1" value="c"> Através de e-mails falsos</li>
                 </ul>
             </div>
 
@@ -135,9 +138,9 @@
                 <h3 class="icon_pergunta">Pergunta 2:</h3>
                 <p>Qual é a atitude mais importante para evitar o golpe do código de verificação?</p>
                 <ul type="none">
-                    <li><input type="radio" name="q2" value="a"> Compartilhar o código apenas com familiares</li>
-                    <li><input type="radio" name="q2" value="b"> Ignorar mensagens do WhatsApp</li>
-                    <li><input type="radio" name="q2" value="c"> Nunca compartilhar o código com ninguém</li>
+                    <li class="a"><input type="radio" name="q2" value="a"> Compartilhar o código apenas com familiares</li>
+                    <li class="b"><input type="radio" name="q2" value="b"> Ignorar mensagens do WhatsApp</li>
+                    <li class="c"><input type="radio" name="q2" value="c"> Nunca compartilhar o código com ninguém</li>
                 </ul>
             </div>
 
@@ -152,9 +155,9 @@
                 <h3 class="icon_pergunta">Pergunta 3:</h3>
                 <p>Qual é um dos sinais de que seu <strong>WhatsApp</strong> foi clonado?</p>
                 <ul type="none">
-                    <li><input type="radio" name="q3" value="a"> Mensagens enviadas que você não escreveu</li>
-                    <li><input type="radio" name="q3" value="b"> O app fecha sozinho</li>
-                    <li><input type="radio" name="q3" value="c"> O celular esquenta</li>
+                    <li class="a"><input type="radio" name="q3" value="a"> Mensagens enviadas que você não escreveu</li>
+                    <li class="b"><input type="radio" name="q3" value="b"> O app fecha sozinho</li>
+                    <li class="c"><input type="radio" name="q3" value="c"> O celular esquenta</li>
                 </ul>
             </div>
 
@@ -170,9 +173,9 @@
                 <h3 class="icon_pergunta">Pergunta 4:</h3>
                 <p>O que você deve fazer imediatamente se seu <strong>WhatsApp</strong> for clonado?</p>
                 <ul type="none">
-                    <li><input type="radio" name="q4" value="a"> Esperar o invasor sair</li>
-                    <li><input type="radio" name="q4" value="b"> Reinstalar o app e verificar com seu número</li>
-                    <li><input type="radio" name="q4" value="c"> Apagar o app</li>
+                    <li class="a"><input type="radio" name="q4" value="a"> Esperar o invasor sair</li>
+                    <li class="b"><input type="radio" name="q4" value="b"> Reinstalar o app e verificar com seu número</li>
+                    <li class="c"><input type="radio" name="q4" value="c"> Apagar o app</li>
                 </ul>
             </div>
 
@@ -189,11 +192,11 @@
                 <h3 class="icon_pergunta">Pergunta 5:</h3>
                 <p>Qual das ações abaixo é mais eficaz para evitar a clonagem do seu <strong>WhatsApp</strong>?</p>
                 <ul type="none">
-                    <li><input type="radio" name="q4" value="a"> Ativar a verificação em duas etapas (2FA) nas
+                    <li class="a"><input type="radio" name="q5" value="a"> Ativar a verificação em duas etapas (2FA) nas
                         configurações do WhatsApp.</li>
-                    <li><input type="radio" name="q4" value="b"> Não usar senha no aparelho, mas manter o WhatsApp
+                    <li class="b"><input type="radio" name="q5" value="b"> Não usar senha no aparelho, mas manter o WhatsApp
                         sempre atualizado.</li>
-                    <li><input type="radio" name="q4" value="c"> Compartilhar o código de verificação com pessoas de
+                    <li class="c"><input type="radio" name="q5" value="c"> Compartilhar o código de verificação com pessoas de
                         confiança em caso de perda do chip.</li>
                 </ul>
             </div>
@@ -202,7 +205,7 @@
 
             <p>Evite golpes ativando a verificação em duas etapas e não compartilhando códigos com ninguém.</p>
 
-            <div class="botao"><button onclick="verificarRespostas()">Verificar Respostas</button></div>
+            <button class="verificar_resposta" onclick="verificarRespostas()">Verificar Respostas</button>
             <p class="resultadoQuiz"></p>
 
         </article>
@@ -214,6 +217,7 @@
         <p>Projeto desenvolvido para fins acadêmicos - direitos autorais livre - UniDrummond</p>
     </footer>
 
+    
     <script src="../../../java_script/perguntas.js"></script>
     <script src="../../../java_script/voltar_ao_topo.js"></script>
 </body>

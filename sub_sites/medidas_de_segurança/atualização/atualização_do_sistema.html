@@ -5,35 +5,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cyber Ranger - Atualização do Sistema</title>
-    <link rel="stylesheet" href="../../../estilos/fontes.css" />
-    <link rel="stylesheet" href="../../../estilos/icons.css" />
-    <link rel="stylesheet" href="../../../estilos/midia.css" />
-    <link rel="stylesheet" href="../../../estilos/quiz.css" />
-    <link rel="stylesheet" href="../../../estilos/medidas_de_segurança.css" />
+    <link rel="stylesheet" href="../../../estilos/fontes.css">
+    <link rel="stylesheet" href="../../../estilos/icons.css">
+    <link rel="stylesheet" href="../../../estilos/midia.css">
+    <link rel="stylesheet" href="../../../estilos/botao.css">
+    <link rel="stylesheet" href="../../../estilos/medidas_de_segurança.css">
     <link rel="shortcut icon" href="../../../icons/favicon.png" type="image/x-icon">
 </head>
 
 <body class="segurança">
     <header>
-        <div>
-            <h1 id="cyber">Cyber</h1>
-            <h1 id="ranger">Ranger</h1>
-        </div>
-        <p>Projeto de Extensão Curricular</p>
-    </header>
+        <div class="container">
+            <div class="logo">
+                <a href="../../../index.html">
+					<img src="../../../imagens/cyberranger.png" alt="cyberranger">
+				</a>
 
-    <nav>
-        <a href="../../../index.html">Inicio</a>
-        <a href="../../ataques/clonagem_whatsapp/clonagem_do_whatsapp.html">Clonagem do Whatsapp</a>
-        <a href="../../ataques/malware/malware.html">Malwares</a>
-        <a href="../../ataques/phishing/phishing.html">Phishing</a>
-        <a href="../../ataques/romance_scam/romance_scam.html">Romnce Scam</a>
-        <a href="../../medidas_de_segurança/antivirus/antivirus.html">Antivirus</a>
-        <a class="atual" href="../../medidas_de_segurança/atualização/atualização_do_sistema.html">Atualização</a>
-        <a href="../../medidas_de_segurança/autenticação/autenticacao.html">Autenticação</a>
-        <a href="../../medidas_de_segurança/backup/backup.html">Backup</a>
-        <a href="../../../referencias.html">Referências</a>
-    </nav>
+				<a href="../../../index.html">
+					<p>Projeto de Extensão Curricular</p>
+				</a>
+            </div>
+            <div class="menu">
+                <nav>
+                    <a href="../../../index.html">Inicio</a>
+                    <a href="../antivirus/antivirus.html">Antivírus</a>
+                    <a href="./atualização_do_sistema.html">Atualização</a>
+                    <a href="../autenticação/autenticacao.html">Autenticação</a>
+                    <a href="../backup/backup.html">Backup</a>
+                </nav>
+            </div>
+            <div class="estrutura_contato">
+                <button class="botao_contato">&#8942</button>
+            </div>
+        </div>
+    </header>
 
     <main>
         <article>
@@ -49,10 +54,10 @@
                 <h3 class="icon_pergunta">Pergunta 1:</h3>
                 <p>O que é uma <strong>Atualização de Sistema</strong>?</p>
                 <ul type="none">
-                    <li><input type="radio" name="q1" value="a"> Apenas uma melhoria no desempenho do sistema</li>
-                    <li><input type="radio" name="q1" value="b"> Um conjunto de melhorias e correções para melhorar a
+                    <li class="a"><input type="radio" name="q1" value="a"> Apenas uma melhoria no desempenho do sistema</li>
+                    <li class="b"><input type="radio" name="q1" value="b"> Um conjunto de melhorias e correções para melhorar a
                         segurança e o desempenho</li>
-                    <li><input type="radio" name="q1" value="c"> Apenas a correção de falhas no sistema</li>
+                    <li class="c"><input type="radio" name="q1" value="c"> Apenas a correção de falhas no sistema</li>
                 </ul>
             </div>
 
@@ -71,10 +76,10 @@
                 <h3 class="icon_pergunta">Pergunta 2:</h3>
                 <p>Por que é importante <strong>Atualizar o Sistema</strong>?</p>
                 <ul type="none">
-                    <li><input type="radio" name="q2" value="a"> Para adicionar novos recursos, apenas</li>
-                    <li><input type="radio" name="q2" value="b"> Para melhorar a segurança, desempenho e compatibilidade
+                    <li class="a"><input type="radio" name="q2" value="a"> Para adicionar novos recursos, apenas</li>
+                    <li class="b"><input type="radio" name="q2" value="b"> Para melhorar a segurança, desempenho e compatibilidade
                     </li>
-                    <li><input type="radio" name="q2" value="c"> Apenas para corrigir falhas do sistema</li>
+                    <li class="c"><input type="radio" name="q2" value="c"> Apenas para corrigir falhas do sistema</li>
                 </ul>
             </div>
 
@@ -92,9 +97,9 @@
                 <h3 class="icon_pergunta">Pergunta 3:</h3>
                 <p>Quais são os principais tipos de <strong>Atualizações</strong>?</p>
                 <ul type="none">
-                    <li><input type="radio" name="q3" value="a"> Apenas atualizações de recursos</li>
-                    <li><input type="radio" name="q3" value="b"> Atualizações de segurança, desempenho e recursos</li>
-                    <li><input type="radio" name="q3" value="c"> Apenas atualizações automáticas</li>
+                    <li class="a"><input type="radio" name="q3" value="a"> Apenas atualizações de recursos</li>
+                    <li class="b"><input type="radio" name="q3" value="b"> Atualizações de segurança, desempenho e recursos</li>
+                    <li class="c"><input type="radio" name="q3" value="c"> Apenas atualizações automáticas</li>
                 </ul>
             </div>
 
@@ -138,10 +143,10 @@
                 <h3 class="icon_pergunta">Pergunta 4:</h3>
                 <p>Quais passos são necessários antes de <strong>Atualizar seu Sistema</strong>?</p>
                 <ul type="none">
-                    <li><input type="radio" name="q4" value="a"> Apenas verificar atualizações</li>
-                    <li><input type="radio" name="q4" value="b"> Verificar atualizações, fazer backup e usar uma rede
+                    <li class="a"><input type="radio" name="q4" value="a"> Apenas verificar atualizações</li>
+                    <li class="b"><input type="radio" name="q4" value="b"> Verificar atualizações, fazer backup e usar uma rede
                         estável</li>
-                    <li><input type="radio" name="q4" value="c"> Apenas conectar à internet e atualizar</li>
+                    <li class="c"><input type="radio" name="q4" value="c"> Apenas conectar à internet e atualizar</li>
                 </ul>
             </div>
 
@@ -158,10 +163,10 @@
                 <h3 class="icon_pergunta">Pergunta 5:</h3>
                 <p>Com que frequência devo <strong>Atualizar o Sistema</strong>?</p>
                 <ul type="none">
-                    <li><input type="radio" name="q5" value="a"> Somente quando houver problemas no sistema</li>
-                    <li><input type="radio" name="q5" value="b"> Sempre que houver atualizações de segurança ou
+                    <li class="a"><input type="radio" name="q5" value="a"> Somente quando houver problemas no sistema</li>
+                    <li class="b"><input type="radio" name="q5" value="b"> Sempre que houver atualizações de segurança ou
                         desempenho</li>
-                    <li><input type="radio" name="q5" value="c"> Nunca, pois o sistema sempre estará seguro sem
+                    <li class="c"><input type="radio" name="q5" value="c"> Nunca, pois o sistema sempre estará seguro sem
                         atualizações</li>
                 </ul>
             </div>
@@ -174,7 +179,7 @@
                 regularmente!
             </p>
 
-            <div class="botao"><button onclick="verificarRespostas()">Verificar Respostas</button></div>
+            <div><button class="verificar_resposta" onclick="verificarRespostas()">Verificar Respostas</button></div>
             <p class="resultadoQuiz"></p>
 
         </article>
